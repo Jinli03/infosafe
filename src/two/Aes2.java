@@ -58,7 +58,7 @@ public class Aes2 {
         return byteArray;
     }
 
-    // 将字节数组转换为十六进制字符串
+
     private static String byteArrayToHexString(byte[] byteArray) {
         StringBuilder hexString = new StringBuilder();
         for (byte b : byteArray) {
